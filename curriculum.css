@@ -1,0 +1,55 @@
+.Title
+{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+body
+{
+	width: 800px;
+	background: none;
+	background-repeat: no-repeat;
+	/*background: linear-gradient(to left,  rgba(0, 140, 128, 0.5) 0%, rgba(0, 100, 30, 0.5)100%);*/
+
+}
+
+
+.Section
+{
+
+	font-size: 25px;
+	/* font-family: 'Martel Sans', sans-serif;*/
+}
+
+.ListSection
+{
+
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.ListItem
+{
+	margin: 0;
+	padding: 5;
+	font-size: 14px;
+}
+
+.btn, btn-primary
+{
+	background: lightblue;
+	color: lightblue;
+}
+
+
+.SimpleParagraph
+{
+	background: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}

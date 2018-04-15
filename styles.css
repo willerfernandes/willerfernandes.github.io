@@ -1,0 +1,26 @@
+
+.btn-primary
+{
+	color: white;
+	background-color:purple;
+	padding: 2px;
+	border-bottom:1px;
+	border-bottom-color: red;
+}
+
+.btn-primary: hover
+{
+	background-color: gray;
+}
+
+body
+{
+	background-image: url("./img/background.jpeg") ;
+	background-repeat: no-repeat;
+	/*background: linear-gradient(to left,  rgba(0, 140, 128, 0.5) 0%, rgba(0, 100, 30, 0.5)100%);*/
+}
+
+.PagInicial
+{
+	color: white;
+}
