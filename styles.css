@@ -15,7 +15,7 @@
 
 body
 {
-	background-image: url("./img/background.jpeg") ;
+	/*background-image: url("./img/background.jpeg") ;
 	background-repeat: no-repeat;
 	/*background: linear-gradient(to left,  rgba(0, 140, 128, 0.5) 0%, rgba(0, 100, 30, 0.5)100%);*/
 }
@@ -23,8 +23,27 @@ body
 .PagInicial
 {
 	color: white;
+    font-size: x-large;
 }
 
+.cv-name
+{
+    color: white;
+    font-size: 80px;
+}
+
+.cv-job-title
+{
+    color: #CFD1CF;;
+    font-size: 40px;
+    font-f
+}
+
+.personal-info
+{
+    background-image: url("./img/background.jpeg");
+    text-align: center;
+}
 .ProfileCenterImg
 {
 	width:400px;
@@ -32,19 +51,33 @@ body
 }
 
 
-
 .title {
     font-weight: 700;
 }
+
+
+.category {
+    text-transform: uppercase;
+    font-weight: 70px;
+     margin: 3px;
+     padding: 3px;
+    /*color: #9A9A9A;*/
+    color: #CFD1CF;
+}
+
 
 
 .photo-container {
     width: 280px;
     height: 280px;
     border-radius: 50%;
+    border-style: groove;
+    border-color: : white;
     overflow: hidden;
     margin: 0 auto;
     box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    top:50%;
+    margin-top: -7%;
 }
 
 
@@ -58,19 +91,27 @@ body
     text-align: center;
     padding: 0 5px;
     color: #FFFFFF;
-    width: 100%;
+    width: 40%;
    /* max-width: 880px;*/
 }
 
+.information-title
+{
 
-.category {
-    text-transform: uppercase;
-    font-weight: 700;
-     margin: 3px;
-     padding: 3px;
-    /*color: #9A9A9A;*/
-    color: #CFD1CF;
 }
+
+.information-text
+{
+
+}
+
+.information-div 
+{
+    text-align: left;
+    fon
+}
+
+
 
 
  .button-container {
@@ -105,4 +146,12 @@ p.description {
     text-align: center;
     padding: 0 5px;
     color: #FFFFFF;
+}
+
+
+div.gallery {
+    margin-left: 200px;
+    border: 0px;
+    float: left;
+    width: 180px;
 }
