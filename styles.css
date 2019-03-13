@@ -8,6 +8,14 @@
 	border-bottom-color: red;
 }
 
+#fixed-header { 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 1.0;
+  z-index: 10000;
+}
+
 .btn-primary: hover
 {
 	background-color: gray;
@@ -156,3 +164,15 @@ div.gallery {
     float: left;
     width: 180px;
 }
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+
+
